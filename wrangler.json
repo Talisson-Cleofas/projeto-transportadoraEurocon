@@ -25,15 +25,5 @@
       "binding": "R2_BUCKET",
       "bucket_name": "eurocon-storage"
     }
-  ],
-  "services": [
-    {
-      "binding": "EMAILS",
-      "service": "emails-service",
-      "entrypoint": "EmailService",
-      "props": {
-        "appId": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
-      }
-    }
   ]
 }
