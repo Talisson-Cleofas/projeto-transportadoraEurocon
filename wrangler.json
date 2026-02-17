@@ -9,29 +9,31 @@
   },
   "upload_source_maps": true,
   "assets": {
+    "directory": "./dist",
     "not_found_handling": "single-page-application"
   },
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec",
-      "database_id": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
+      "database_id": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec",
+      "migrations_dir": "migrations"
     }
   ],
-	  "r2_buckets": [
-	    {
-	      "binding": "R2_BUCKET",
-	      "bucket_name": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
-	    }
-	  ],
-	  "services": [
-	    {
-	      "binding": "EMAILS",
-	      "service": "emails-service",
-	      "entrypoint": "EmailService",
-	      "props": {
-	        "appId": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
-	      }
-	    }
-	  ]
-	}
+  "r2_buckets": [
+    {
+      "binding": "R2_BUCKET",
+      "bucket_name": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
+    }
+  ],
+  "services": [
+    {
+      "binding": "EMAILS",
+      "service": "emails-service",
+      "entrypoint": "EmailService",
+      "props": {
+        "appId": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
+      }
+    }
+  ]
+}
