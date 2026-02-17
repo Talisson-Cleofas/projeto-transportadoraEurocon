@@ -15,8 +15,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec",
-      "database_id": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec",
+      "database_name": "eurocon-db",
+      "database_id": "85d6505b-3365-48c4-b028-eb2953c035af",
       "migrations_dir": "migrations"
     }
   ],
