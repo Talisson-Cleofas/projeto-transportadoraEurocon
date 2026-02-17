@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "eurocon-transportadora",
+  "name": "eurocon",
   "main": "./src/worker/index.ts",
   "compatibility_date": "2025-06-17",
   "compatibility_flags": ["nodejs_compat"],
@@ -23,7 +23,7 @@
   "r2_buckets": [
     {
       "binding": "R2_BUCKET",
-      "bucket_name": "019c6d24-3e84-7cd1-a36c-9564b9bb96ec"
+      "bucket_name": "eurocon-storage"
     }
   ],
   "services": [
